@@ -27,6 +27,7 @@ section {
 
 .half-width img {
     width: 80%;
+    margin-bottom: 100px;
 }
 
 .link-button {
@@ -41,4 +42,36 @@ section {
 .section-1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.section-2 h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.section-2 h4 {
+    font-size: 20px;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.section2 p {
+    font-style: normal;
+}
+
+.section-2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
